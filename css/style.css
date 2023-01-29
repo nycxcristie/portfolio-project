@@ -2,7 +2,7 @@
 font-family: 'Hind Siliguri', sans-serif; */
 :root {
   --primary-color: rgb(15, 31, 15);
-  --secondary-color: rgb(240, 236, 232);
+  --secondary-color: rgb(250, 248, 245);
   --box-shadow: 4px 3px 19px -5px rgba(0,0,0,0.75);
   --big-font: "Aboreto", cursive;
   --little-font: "Hind Siliguri", serif;
@@ -10,7 +10,7 @@ font-family: 'Hind Siliguri', sans-serif; */
 
 .hero {
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding: 75px 20px;
   background-color: var(--secondary-color);
   text-align: center;
