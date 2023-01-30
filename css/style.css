@@ -82,11 +82,17 @@ button {
   border: none;
 }
 .three-buttons:hover {
-  opacity: 0.75;
+  opacity: 0.95;
 }
 a {
   text-decoration: none;
   color: #faf8f5;
+}
+
+.footer {
+  display: block;
+  margin-top: 200px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
