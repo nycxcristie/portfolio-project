@@ -3,14 +3,16 @@ font-family: 'Hind Siliguri', sans-serif; */
 :root {
   --primary-color: rgb(15, 31, 15);
   --secondary-color: rgb(250, 248, 245);
-  --box-shadow: 4px 3px 19px -5px rgba(0,0,0,0.75);
+  --tertiary-color: #737970;
+  --pop-color: rgb(109, 161, 109);
+  --box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
   --big-font: "Aboreto", cursive;
   --little-font: "Hind Siliguri", serif;
 }
 
 .hero {
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 75px 20px;
   background-color: var(--secondary-color);
   text-align: center;
@@ -25,27 +27,69 @@ h2 {
   font-size: 32px;
   font-family: var(--little-font);
 }
+.navbar {
+  /* background-color: rgb(85, 80, 78); */
+  background-color: var(--primary-color);
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: var(--tertiary-color);
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: var(--tertiary-color);
+  --bs-navbar-active-color: var(--pop-color);
+}
+
+.navbar-brand {
+  font-family: var(--big-font);
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+.nav-link .active {
+  color: var(--secondary-color);
+}
+
 p {
   font-size: 32px;
-  font-family:  var(--little-font);
+  font-family: var(--little-font);
   margin: 2px;
 }
+
+.main-buttons {
+  margin-top: 50px;
+}
+
 button {
   padding: 7px 15px;
   font-size: 18px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 7%;
   background-color: var(--primary-color);
-  margin-top: 100px;
-  margin-bottom: 15px;
+
   opacity: 0.6;
   transition: 0.3s;
   display: inline-block;
-  text-decoration;
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
   border: none;
 }
-.button:hover {
-    opacity: 1
+.three-buttons:hover {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 51px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 25px;
+  }
 }
