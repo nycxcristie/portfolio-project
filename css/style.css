@@ -2,8 +2,13 @@
 font-family: 'Hind Siliguri', sans-serif; */
 :root {
   --primary-color: rgb(15, 31, 15);
+  /* rgb(230, 118, 14); */
+
   --secondary-color: #faf8f5;
+  /* #faf8f5; */
   --tertiary-color: #737970;
+  /* #737970; */
+
   --pop-color: rgb(109, 161, 109);
   --box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
   --big-font: "Aboreto", cursive;
@@ -82,8 +87,13 @@ button {
   border: none;
 }
 .three-buttons:hover {
-  opacity: 0.95;
+  opacity: 0.8;
 }
+a .navbar {
+  text-decoration: none;
+  color: #faf8f5;
+}
+
 a {
   text-decoration: none;
   color: #faf8f5;
@@ -108,4 +118,8 @@ a {
   .three-buttons {
     margin-top: 50px;
   }
+}
+a .dropdown-item.nav-link.active {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
