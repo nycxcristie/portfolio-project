@@ -8,6 +8,7 @@ font-family: 'Hind Siliguri', sans-serif; */
   /* #faf8f5; */
   --tertiary-color: #737970;
   /* #737970; */
+  --navbar-color: rgb(85, 80, 78);
 
   --pop-color: rgb(109, 161, 109);
   --box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
@@ -91,12 +92,12 @@ button {
 }
 a .navbar {
   text-decoration: none;
-  color: #faf8f5;
+  color: var(--secondary-color);
 }
 
 a {
   text-decoration: none;
-  color: #faf8f5;
+  color: var(--secondary-color);
 }
 
 .footer {
@@ -122,4 +123,10 @@ a {
 a .dropdown-item.nav-link.active {
   background-color: var(--tertiary-color);
   color: var(--secondary-color);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--secondary-color);
+  background-color: var(--navbar-color);
 }
