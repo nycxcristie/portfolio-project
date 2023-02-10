@@ -11,14 +11,14 @@ font-family: 'Hind Siliguri', sans-serif; */
   --navbar-color: rgb(85, 80, 78);
 
   --pop-color: rgb(109, 161, 109);
-  --box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
+  --box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.25);
   --big-font: "Aboreto", cursive;
   --little-font: "Hind Siliguri", serif;
 }
 
 .hero {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 75px 20px;
   background-color: var(--secondary-color);
   text-align: center;
@@ -94,20 +94,41 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-button {
-  padding: 7px 15px;
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 7%;
-  background-color: var(--primary-color);
-  opacity: 0.6;
-  transition: 0.3s;
-  display: inline-block;
-  color: var(--secondary-color);
-  border: none;
+.desc {
+  padding: 7px;
+  text-align: center;
 }
+
+
+button {
+  margin-bottom: 5px;
+  text-align: center;
+  display: inline;
+  padding: 20px 30px;
+  font-size: 40px;
+  border-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  background: rgb(101, 111, 96);
+  background: linear-gradient(
+    90deg,
+    rgb(246, 247, 245) 0%,
+    rgb(255, 251, 245) 100%,
+    rgb(243, 237, 223) 100%,
+    rgb(255, 243, 227) 100%
+  );
+  opacity: 0.8
+  display: inline-block;
+  color: rgb(35, 35, 35);
+}
+
+.three-buttons:active {
+  box-shadow:  4px 3px 19px -5px rgba(0, 0, 0, 0.75);
+  transform: translateY(4px);
+}
+
 .three-buttons:hover {
-  opacity: 0.8;
+  opacity: 0.3;
 }
 a .navbar {
   text-decoration: none;
@@ -116,13 +137,13 @@ a .navbar {
 
 button a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: black;
 }
 
 footer {
   font-size: 40px;
   display: block;
-  margin-top: 70px;
+  margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 100px;
@@ -160,7 +181,7 @@ footer {
 @media (min-width: 900px) a .dropdown-item.nav-link.active {
   background-color: var(--tertiary-color);
   color: var(--secondary-color);
-}
+
 
 .dropdown-item.active,
 .dropdown-item:active {
