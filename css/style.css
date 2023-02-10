@@ -113,15 +113,20 @@ a .navbar {
   color: var(--secondary-color);
 }
 
-a {
+button a {
   text-decoration: none;
   color: var(--secondary-color);
 }
 
-.footer {
+footer {
+  font-size: 40px;
   display: block;
   margin-top: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
   text-align: center;
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
@@ -135,13 +140,19 @@ a {
     font-size: 25px;
   }
   .about-story {
-    font-size: 18px;
+    font-size: 16px;
   }
   .three-buttons {
     margin-top: 50px;
   }
   .about-hero {
     margin-bottom: 30px;
+  }
+  li {
+    margin-top: 20px;
+  }
+  .contact-pic {
+    display: none;
   }
 }
 
@@ -158,4 +169,7 @@ a {
 
 .contact-me-button {
   text-align: center;
+}
+li {
+  padding: 15px;
 }
