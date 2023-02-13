@@ -99,7 +99,6 @@ p {
   text-align: center;
 }
 
-
 button {
   margin-bottom: 5px;
   text-align: center;
@@ -117,13 +116,13 @@ button {
     rgb(243, 237, 223) 100%,
     rgb(255, 243, 227) 100%
   );
-  opacity: 0.8
+  opacity: 0.8;
   display: inline-block;
   color: rgb(35, 35, 35);
 }
 
 .three-buttons:active {
-  box-shadow:  4px 3px 19px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
   transform: translateY(4px);
 }
 
@@ -178,15 +177,17 @@ footer {
   }
 }
 
-@media (min-width: 900px) a .dropdown-item.nav-link.active {
-  background-color: var(--tertiary-color);
-  color: var(--secondary-color);
+@media (min-width: 900px) {
+  .dropdown-item.nav-link.active {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+  }
 
-
-.dropdown-item.active,
-.dropdown-item:active {
-  color: rgb(199, 198, 198);
-  background-color: #ffffff;
+  .dropdown-item.active,
+  .dropdown-item:active {
+    color: rgb(199, 198, 198);
+    background-color: #ffffff;
+  }
 }
 
 .contact-me-button {
@@ -194,4 +195,17 @@ footer {
 }
 li {
   padding: 15px;
+}
+
+.code-display {
+  padding: 30px;
+}
+
+.code-pic {
+  background-color: var(--secondary-color);
+  padding: 50px;
+}
+
+.confections {
+  margin: 5px;
 }
