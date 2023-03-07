@@ -23,6 +23,18 @@ font-family: 'Hind Siliguri', sans-serif; */
   background-color: var(--secondary-color);
   text-align: center;
 }
+
+.hero2 {
+  border-radius: 12px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 30px 30px;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
 .about-hero {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -89,14 +101,14 @@ p {
   margin: 2px;
 }
 
-.three-buttons {
-  margin-top: 50px;
-  box-shadow: var(--box-shadow);
-}
-
 .desc {
   padding: 7px;
   text-align: center;
+}
+
+.confectionary-buttons {
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 button {
@@ -121,6 +133,30 @@ button {
   color: rgb(35, 35, 35);
 }
 
+.bottom-buttons {
+  border-radius: 5px;
+  border: 2px solid rgb(117, 115, 115);
+  text-align: center;
+  margin: 20px 20px;
+  box-shadow: var(--box-shadow);
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.bottom-buttons:active {
+  box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
+  transform: translateY(4px);
+}
+
+.bottom-buttons:hover {
+  opacity: 0.3;
+}
+
+.three-buttons {
+  margin-top: 50px;
+  box-shadow: var(--box-shadow);
+}
+
 .three-buttons:active {
   box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.75);
   transform: translateY(4px);
@@ -129,6 +165,11 @@ button {
 .three-buttons:hover {
   opacity: 0.3;
 }
+
+.together {
+  font-size: 40px;
+}
+
 a .navbar {
   text-decoration: none;
   color: var(--secondary-color);
@@ -145,7 +186,7 @@ footer {
   margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 5px;
   text-align: center;
   background-color: var(--secondary-color);
 }
@@ -174,6 +215,13 @@ footer {
   }
   .contact-pic {
     display: none;
+  }
+  .hero2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px 30px;
   }
 }
 
