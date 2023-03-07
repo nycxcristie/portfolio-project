@@ -195,6 +195,9 @@ footer {
   h1 {
     font-size: 51px;
   }
+  h1 .confec {
+    font-size: 40px;
+  }
   h2 {
     font-size: 25px;
   }
