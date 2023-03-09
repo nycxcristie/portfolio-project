@@ -43,7 +43,7 @@ font-family: 'Hind Siliguri', sans-serif; */
   text-align: center;
 }
 .about-story {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--little-font), "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
   padding: 5px;
   margin: 10px 20px 10px 20px;
@@ -189,13 +189,18 @@ button a {
   color: black;
 }
 
+.body-text {
+  size: 50px;
+  color: antiquewhite;
+}
+
 footer {
   font-size: 40px;
   display: block;
   margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 5px;
+  margin-bottom: px;
   text-align: center;
   background-color: var(--secondary-color);
 }
@@ -234,7 +239,6 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
     padding: 30px 30px;
-    border: solid 2px red;
   }
 }
 
