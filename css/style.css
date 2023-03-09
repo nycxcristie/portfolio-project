@@ -35,7 +35,7 @@ font-family: 'Hind Siliguri', sans-serif; */
   text-align: center;
 }
 
-.about-hero {
+.top-hero {
   margin-top: 50px;
   margin-bottom: 100px;
   padding: 75px 20px;
@@ -63,6 +63,12 @@ h1 {
 h2 {
   font-size: 32px;
   font-family: var(--little-font);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.divider {
+  padding-top: 30px;
 }
 
 .navbar-nav {
@@ -169,6 +175,9 @@ button {
 .together {
   font-size: 40px;
 }
+.title {
+  font-size: 30px;
+}
 
 a .navbar {
   text-decoration: none;
@@ -225,6 +234,7 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
     padding: 30px 30px;
+    border: solid 2px red;
   }
 }
 
