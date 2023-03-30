@@ -245,6 +245,9 @@ footer {
     margin-right: 0px;
     padding: 30px 30px;
   }
+  .design-bg img {
+    box-shadow: none;
+  }
 }
 
 @media (min-width: 900px) {
@@ -284,7 +287,7 @@ li {
   background-color: pink;
 }
 
-.product-design-bg {
+.design-bg {
   background-color: var(--secondary-color);
   opacity: 1;
   align: center;
@@ -293,16 +296,7 @@ li {
   margin: 50px;
 }
 
-.graphic-design-bg {
-  background-color: var(--secondary-color);
-  opacity: 1;
-  align: center;
-  padding: 40px 60px 40px 40px;
-  align-items: center;
-  margin: 50px;
-}
-
-.graphic-design-bg img {
+.design-bg img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 0px;
