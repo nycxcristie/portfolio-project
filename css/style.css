@@ -205,16 +205,6 @@ footer {
   background-color: var(--secondary-color);
 }
 
-.bkgbox {
-  background: (
-    linear-gradient 90deg,
-    rgb(246, 247, 245) 0%,
-    rgb(255, 251, 245) 100%,
-    rgb(243, 237, 223) 100%,
-    rgb(255, 243, 227) 100%
-  );
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 51px;
