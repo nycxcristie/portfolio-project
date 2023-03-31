@@ -242,17 +242,16 @@ li {
 } */
 
 .design-bg img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03),
-    0 6px 20px 0 rgba(223, 222, 222, 0.3);
-  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(213, 212, 212, 0.5),
+    0 6px 20px 0 rgba(115, 114, 114, 0.3);
   padding: 0px;
-  margin: 5px;
+  margin: 0px;
 }
 
-/* When the  small screen, change to this: */
+/* When the screen becomes smaller, change to this: */
 @media (max-width: 900px) {
   img {
-    display: flex;
+    display: block;
     align-items: center;
   }
 
@@ -290,12 +289,10 @@ li {
     margin-right: 0px;
     padding: 30px 30px;
   }
-  /* .design-bg img {
-    box-shadow: none;
-    text-align: center;
+  .design-bg img {
     padding: 0px;
     margin: 0px;
-  } */
+  }
 }
 
 /* @media (min-width: 900px) {
