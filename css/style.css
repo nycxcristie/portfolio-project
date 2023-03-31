@@ -77,8 +77,10 @@ h2 {
 }
 
 .navbar-toggler-icon {
-  background-image: var(--bs-nav-link-hover-color);
-  color: #ffffff;
+  border-radius: 20px 40px;
+  background-image: none;
+  color: transparent;
+  color: #6d6c6d;
 }
 
 .navbar {
@@ -200,7 +202,7 @@ footer {
   margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: px;
+  margin-bottom: 0px;
   text-align: center;
   background-color: var(--secondary-color);
 }
