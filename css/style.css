@@ -289,12 +289,12 @@ li {
     margin-right: 0px;
     padding: 30px 30px;
   }
-  .design-bg img {
+  /* .design-bg img {
     box-shadow: none;
     text-align: center;
     padding: 0px;
     margin: 0px;
-  }
+  } */
 }
 
 /* @media (min-width: 900px) {
