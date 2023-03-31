@@ -242,10 +242,11 @@ li {
 } */
 
 .design-bg img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03),
+    0 6px 20px 0 rgba(223, 222, 222, 0.3);
   text-align: center;
   padding: 0px;
-  margin: 15px;
+  margin: 5px;
 }
 
 /* When the  small screen, change to this: */
