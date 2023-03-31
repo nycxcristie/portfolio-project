@@ -245,7 +245,8 @@ li {
   box-shadow: 0 4px 8px 0 rgba(213, 212, 212, 0.5),
     0 6px 20px 0 rgba(115, 114, 114, 0.3);
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 /* When the screen becomes smaller, change to this: */
@@ -276,6 +277,9 @@ li {
   .about-hero {
     margin-bottom: 30px;
   }
+  ul {
+    padding: 10px;
+  }
   li {
     margin-top: 20px;
   }
@@ -293,21 +297,11 @@ li {
     padding: 0px;
     margin: 0px;
   }
+  .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .code-pic {
+    padding: 10px;
+  }
 }
-
-/* @media (min-width: 900px) {
-  .dropdown-item.nav-link.active {
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
-  }
-
-  .dropdown-item.active,
-  .dropdown-item:active {
-    color: rgb(199, 198, 198);
-    background-color: #ffffff;
-  }
-
-  .design-bg img {
-    box-shadow: 0;
-  }
-} */
