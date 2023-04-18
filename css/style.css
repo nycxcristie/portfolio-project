@@ -35,13 +35,6 @@ font-family: 'Hind Siliguri', sans-serif; */
   text-align: center;
 }
 
-.top-hero {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  padding: 75px 20px;
-  background-color: var(--secondary-color);
-  text-align: center;
-}
 .about-story {
   font-family: var(--little-font), "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
@@ -104,7 +97,7 @@ h2 {
 }
 
 p {
-  font-size: 32px;
+  font-size: 18px;
   font-family: var(--little-font);
   margin: 2px;
 }
