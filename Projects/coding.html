@@ -62,8 +62,8 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon">
-            <svg
+          <span class="navbar-toggler-icon"
+            ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
@@ -81,19 +81,53 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">About Me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                class="nav-link active"
+                class="nav-link dropdown-toggle nav-link active"
                 aria-current="page"
-                href="/contact.html"
+                href="/portfolio.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Portfolio
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/projects/coding.html"
+                    >Coding Projects</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/projects/confectionary-art.html"
+                    >Confectionary Art</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/projects/graphic-design.html"
+                    >Graphic Design</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item nav-link active"
+                    aria-current="page"
+                    href="/projects/product-design.html"
+                    >Product Design</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/contact.html"
                 >Contact Me</a
               >
             </li>
