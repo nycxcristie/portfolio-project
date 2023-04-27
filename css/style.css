@@ -10,7 +10,7 @@ font-family: 'Hind Siliguri', sans-serif; */
   /* #737970; */
   --navbar-color: rgb(85, 80, 78);
 
-  --pop-color: rgb(109, 161, 109);
+  --pop-color: #c3d3ea;
   --box-shadow: 4px 3px 19px -5px rgba(0, 0, 0, 0.25);
   --big-font: "Aboreto", cursive;
   --little-font: "Hind Siliguri", serif;
@@ -70,7 +70,7 @@ h3 {
 
 .navbar-nav {
   --bs-nav-link-hover-color: var(--tertiary-color);
-  --bs-navbar-active-color: #c3d3ea;
+  --bs-navbar-active-color: var(--pop-color);
 }
 
 .navbar-toggler-icon {
