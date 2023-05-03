@@ -291,6 +291,7 @@ li {
   .design-bg img {
     padding: 0px;
     margin: 0px;
+    width: 100%;
   }
   .row {
     margin-left: 0px !important;
