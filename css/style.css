@@ -294,4 +294,7 @@ li {
   .code-pic {
     padding: 10px;
   }
+  .open-source {
+    font-size: 7px;
+  }
 }
