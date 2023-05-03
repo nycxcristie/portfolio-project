@@ -107,6 +107,11 @@ p {
   margin: 2px;
 }
 
+.open-source {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+}
+
 .desc {
   padding: 7px;
   text-align: center;
@@ -296,5 +301,6 @@ li {
   }
   .open-source {
     font-size: 7px;
+    font-family: var(--bs-font-sans-serif);
   }
 }
