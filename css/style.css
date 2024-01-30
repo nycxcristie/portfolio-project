@@ -244,7 +244,7 @@ li {
 }
 
 /* When the screen becomes smaller, change to this: */
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   img {
     display: block;
     align-items: center;
